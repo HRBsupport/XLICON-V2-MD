@@ -103,7 +103,7 @@ async function gandu() {
       process.exit(1)
     } else {
       console.log(`${endi}`)
-      console.log(chalk.bgBlack(chalk.redBright('initializing XLICON Bot')))
+      console.log(chalk.bgBlack(chalk.redBright('initializing HonorsBot')))
     }
   } catch (error) {
     console.error('Error:', error)
