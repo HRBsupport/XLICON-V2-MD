@@ -584,7 +584,7 @@ export async function participantsUpdate({ id, participants, action }) {
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
             pp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
-            ppgp = 'httphttps://whatsapp.com/channel/0029Vb0WT0vKwqSWrayxcZ03s://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
+            ppgp = 'https://whatsapp.com/channel/0029Vb0WT0vKwqSWrayxcZ03://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
           } finally {
             let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user').replace(
               '@user',
@@ -613,10 +613,10 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: 'THE XLICON BOT',
+                    title: 'HonorsBot',
                     body: 'Goodbye from  Group',
                     thumbnailUrl: leaveApiUrl,
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaMGgVL3WHTNkhzHik3c',
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb0WT0vKwqSWrayxcZ03',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
